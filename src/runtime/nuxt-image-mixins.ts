@@ -14,6 +14,10 @@ export default {
       default: '',
       required: true
     },
+    defaultSrc: {
+      type: Number,
+      default: undefined
+    },
     width: {
       type: [String, Number],
       default: ''

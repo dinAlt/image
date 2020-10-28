@@ -17,7 +17,7 @@ export default {
     },
     generatedSrc () {
       if (this.sizes.length) {
-        return this.sizes[0].url
+        return (this.defaultSrc !== undefined ? this.sizes[this.defaultSrc] : this.sizes[0]).url
       }
       return this.src
     }
