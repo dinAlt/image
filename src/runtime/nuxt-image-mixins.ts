@@ -229,6 +229,7 @@ export default {
     // hanlde onLoad event of original image element
     onImageLoaded () {
       this.lazyState = LazyState.LOADED
+      this.$emit('load')
     }
   }
 }

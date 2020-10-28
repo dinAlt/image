@@ -31,6 +31,9 @@ export default {
     if (!this.lazy && !this.placeholder) {
       return h('img', {
         class: '__nim_o',
+        on: {
+          load: () => { this.$emit('load') }
+        },
         attrs: {
           src: this.generatedSrc,
           srcset: this.generatedSrcset,
