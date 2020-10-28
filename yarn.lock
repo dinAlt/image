@@ -6520,10 +6520,10 @@ ipaddr.js@1.9.1:
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 
-ipx@0.4.0-rc.1:
-  version "0.4.0-rc.1"
-  resolved "https://registry.yarnpkg.com/ipx/-/ipx-0.4.0-rc.1.tgz#182c4ad0764729cacdf517e46942fb41d157719f"
-  integrity sha512-UVuArY5fajJzw0N7rv9WM6zFn8Vw/UBzjmOz+2jAzp7b1X9lIDTr1lZh1k6POEps850DlnyooHezgZXaW/Mf1w==
+ipx@0.4.0-rc.3:
+  version "0.4.0-rc.3"
+  resolved "https://registry.yarnpkg.com/ipx/-/ipx-0.4.0-rc.3.tgz#4f2e03263e495c03cb4cdf2a160f2aaa3b5748a6"
+  integrity sha512-/cxWFLWeR7ERkidihaokPf8WwwwA4F0mdwBRu5lMqXK0icUmR1kkhxLXtzWx5QD66SjWMxqtdLq2TyvbvsBpjw==
   dependencies:
     connect "^3.7.0"
     consola "^2.15.0"
@@ -9123,10 +9123,10 @@ pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
-playwright@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.5.1.tgz#f5333cbfefaf9cb7213b0c9ca8bc9f3f18efcf16"
-  integrity sha512-FYxrQ2TAmvp5ZnBnc6EJHc1Vt3DmXx8xVDq6rxVVG4YVoNKHYMarHI92zGyDlueN2kKCavrhk4Et9w6jJ5XWaA==
+playwright@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.5.2.tgz#e127142cba86c918fad9f68315db5e79524af64c"
+  integrity sha512-on7IEui47bDZta0txL86QKMDSgjbxERkLc5N0+lU2zajIfN/Ld6vMl+xiROEUPlT/QtqVekq9pTDGdcc0yScMQ==
   dependencies:
     debug "^4.1.1"
     extract-zip "^2.0.1"
@@ -11893,6 +11893,11 @@ typescript@^4.0.3, typescript@~4.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.3.tgz#153bbd468ef07725c1df9c77e8b453f8d36abba5"
   integrity sha512-tEu6DGxGgRJPb/mVPIZ48e69xCn2yRmCgYmDugAVwmJ6o+0u1RI18eO7E7WBTLYLaEVVOhwQmcdhQHweux/WPg==
+
+typescript@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.5.tgz#ae9dddfd1069f1cb5beb3ef3b2170dd7c1332389"
+  integrity sha512-ywmr/VrTVCmNTJ6iV2LwIrfG1P+lv6luD8sUJs+2eI9NLGigaN+nUQc13iHqisq7bra9lnmUSYqbJvegraBOPQ==
 
 ua-parser-js@^0.7.22:
   version "0.7.22"
